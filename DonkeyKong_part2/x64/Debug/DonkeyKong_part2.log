@@ -1,0 +1,15 @@
+﻿  autoGame.cpp
+C:\Users\shira\source\repos\DonkeyKong_part2\DonkeyKong_part2\autoGame.cpp(168,7): warning C4101: 'ch': unreferenced local variable
+  barrel.cpp
+  board.cpp
+  enemy.cpp
+  gameConfig.cpp
+  ghost.cpp
+  hero.cpp
+  main.cpp
+  manualGame.cpp
+  results.cpp
+  steps.cpp
+  superGhost.cpp
+  Generating Code...
+  DonkeyKong_part2.vcxproj -> C:\Users\shira\source\repos\DonkeyKong_part2\x64\Debug\DonkeyKong_part2.exe

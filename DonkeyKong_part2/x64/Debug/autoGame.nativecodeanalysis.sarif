@@ -1,0 +1,340 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'GameConfig::random_seed' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/gameConfig.h"
+                },
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "GameConfig::{ctor}",
+                  "decoratedName": "??0GameConfig@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "GameConfig::random_seed"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Enemy::symbol' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/enemy.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Enemy::{ctor}",
+                  "decoratedName": "??0Enemy@@QEAA@PEAVBoard@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Enemy::symbol"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Enemy::dir' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/enemy.h"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Enemy::{ctor}",
+                  "decoratedName": "??0Enemy@@QEAA@PEAVBoard@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Enemy::dir"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Enemy::symbol' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/enemy.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Enemy::{ctor}",
+                  "decoratedName": "??0Enemy@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Enemy::symbol"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Enemy::dir' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/enemy.h"
+                },
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Enemy::{ctor}",
+                  "decoratedName": "??0Enemy@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Enemy::dir"
+          }
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/autoGame.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 3,
+                  "endLine": 86,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AutoGame::initGame",
+                  "decoratedName": "?initGame@AutoGame@@UEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAVSteps@@AEAVResults@@AEA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: '_getch'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/autoGame.cpp"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 3,
+                  "endLine": 105,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "AutoGame::initGame",
+                  "decoratedName": "?initGame@AutoGame@@UEAA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0AEAVSteps@@AEAVResults@@AEA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/gameConfig.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2809f6b794bb67fe44676de99a378002acc6576fa31171f7d69b59d1716be0e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/enemy.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "05bf84127f172144da40513dffbfcb015a4a4c65026e47cb58fe31c2057829e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/shira/source/repos/DonkeyKong_part2/DonkeyKong_part2/autoGame.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4d5962e881ebc2d05be23218893124b5fb8026187c6a5139ea6c0d0ba1ea0286"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/autogame.h"
+          },
+          "hashes": {
+            "sha-256": "c23f475f2f5db6b5c82d07d18852fe1f86ce7cdac522c063636c11632dc76fdd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/position.h"
+          },
+          "hashes": {
+            "sha-256": "a6c40b55339172084658de3bda0c418fa4deee6059a341305ba78dadb27b4d7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/results.h"
+          },
+          "hashes": {
+            "sha-256": "c0e1e6c24b11b2ffb7ef7b891ea61ced38a62024411eb7da9a41cc53d6110f85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/steps.h"
+          },
+          "hashes": {
+            "sha-256": "091bca558b1b87b48f6de15817b20eca5a312fcb2b27bb4ace9db39209a4d724"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/board.h"
+          },
+          "hashes": {
+            "sha-256": "819a5c919827bc86a3fe0233c7a7cc501fcd4ddcbd9ace9e83e9a3c54bcae18f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/utils.h"
+          },
+          "hashes": {
+            "sha-256": "9942fb9f0eebda4873ba632ebc9b58a515a9b9ff683fb784fdb530307f7caa57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/barrel.h"
+          },
+          "hashes": {
+            "sha-256": "d70af487eeef85588a7e22ead085fa7b237738abc5a54566d32d6c3861a4daca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/ghost.h"
+          },
+          "hashes": {
+            "sha-256": "1ba1ae7270845a05a57f8b0a8c7deb45401b2e4e94b355688d2cc47d91d88d40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/hero.h"
+          },
+          "hashes": {
+            "sha-256": "5da83ad6fb25f3459b4243f7ffadf1731a95871b83e1c05cf3c8f1b226e81bf6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/shira/source/repos/donkeykong_part2/donkeykong_part2/superghost.h"
+          },
+          "hashes": {
+            "sha-256": "6b3ad2b40ed112d494fd37c3615d4da0143846b91dbf77c6ba167c79a86b3bd1"
+          }
+        }
+      ]
+    }
+  ]
+}
